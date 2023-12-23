@@ -26,7 +26,7 @@ https://github.com/harisreedhar/Swap-Mukham/assets/46858047/d8f2389a-3078-43a1-9
 ## Installation
 ### CPU Install
 ````
-git clone https://github.com/harisreedhar/Swap-Mukham
+git clone https://github.com/hantupota/aFace-Swapping
 cd Swap-Mukham
 conda create -n swapmukham python=3.10 -y
 conda activate swapmukham
@@ -36,7 +36,7 @@ python app.py
 ````
 ### GPU Install (CUDA)
 ````
-git clone https://github.com/harisreedhar/Swap-Mukham
+git clone https://github.com/hantupota/aFace-Swapping
 cd Swap-Mukham
 conda create -n swapmukham python=3.10 -y
 conda activate swapmukham
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 python app.py --cuda --batch_size 32
 ````
 ## Download Models
-- [inswapper_128.onnx](https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx)
+- [inswapper_128.onnx](https://drive.google.com/u/0/uc?id=1krOLgjW2tAPaqV-Bw4YALz0xT5zlb5HF&export=download)
 - [GFPGANv1.4.pth](https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth)
 - [79999_iter.pth](https://drive.google.com/open?id=154JgKpzCPW82qINcVieuPH3fZ2e0P812)
 - [RealESRGAN_x2.pth](https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pth)
